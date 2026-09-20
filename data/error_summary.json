@@ -1,0 +1,121 @@
+{
+  "run": "mnv4_cifar10",
+  "top1_acc": 0.9633,
+  "top5_acc": 0.9984,
+  "n_errors": 367,
+  "mean_conf_correct": 0.8885,
+  "mean_conf_wrong": 0.6217,
+  "worst_class_recall": "cat",
+  "worst_class_recall_value": 0.914,
+  "best_class_recall": "frog",
+  "best_class_recall_value": 0.989,
+  "top3_confusions": [
+    "dog->cat (52)",
+    "cat->dog (45)",
+    "truck->automobile (23)"
+  ],
+  "top10_confusions": [
+    [
+      "dog",
+      "cat",
+      52,
+      0.052
+    ],
+    [
+      "cat",
+      "dog",
+      45,
+      0.045
+    ],
+    [
+      "truck",
+      "automobile",
+      23,
+      0.023
+    ],
+    [
+      "automobile",
+      "truck",
+      16,
+      0.016
+    ],
+    [
+      "airplane",
+      "ship",
+      16,
+      0.016
+    ],
+    [
+      "cat",
+      "deer",
+      14,
+      0.014
+    ],
+    [
+      "horse",
+      "deer",
+      10,
+      0.01
+    ],
+    [
+      "dog",
+      "deer",
+      10,
+      0.01
+    ],
+    [
+      "bird",
+      "cat",
+      10,
+      0.01
+    ],
+    [
+      "ship",
+      "airplane",
+      9,
+      0.009
+    ]
+  ],
+  "reliability_bins": [
+    [
+      "0.2-0.3",
+      12,
+      0.0833
+    ],
+    [
+      "0.3-0.4",
+      60,
+      0.4833
+    ],
+    [
+      "0.4-0.5",
+      155,
+      0.5935
+    ],
+    [
+      "0.5-0.6",
+      190,
+      0.6842
+    ],
+    [
+      "0.6-0.7",
+      245,
+      0.7306
+    ],
+    [
+      "0.7-0.8",
+      419,
+      0.852
+    ],
+    [
+      "0.8-0.9",
+      2513,
+      0.9805
+    ],
+    [
+      "0.9-1.0",
+      6406,
+      0.9961
+    ]
+  ]
+}

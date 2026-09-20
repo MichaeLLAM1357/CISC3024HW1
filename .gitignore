@@ -1,0 +1,17 @@
+# Jupyter / Colab
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+__pycache__/
+*.py[cod]
+
+# Local data & checkpoints (regenerate by running the notebooks)
+cisc3024_ai1/
+*.pt
+*.pth
+*.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
